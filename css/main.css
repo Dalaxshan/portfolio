@@ -77,8 +77,8 @@ a.btn {
 .container {
   width: 80%;
   margin: auto;
-  margin-top: 80px;
-  margin-bottom: 200px;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 section h3.name {
@@ -625,10 +625,10 @@ section.hero {
 }
 
 .portfolio .filter-items {
-  margin-top: 40px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin: 20px;
 }
 
 .portfolio .card {
@@ -710,6 +710,10 @@ section.hero {
   font-size: 15px;
 }
 
+.testimonial .card .client .company {
+  font-size: 12px;
+}
+
 .testimonial .card .client span i {
   color: var(--main-color);
 }
@@ -768,6 +772,30 @@ section.hero {
 }
 
 /* __________ END BLOG SECTION __________ */
+
+/* __________ START CERTIFICATE SECTION __________ */
+
+.certificate .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  flex-wrap: wrap;
+}
+.certificate .card {
+  width: 33%;
+  background-color: var(--card-color);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.certificate .card img {
+  width: 100%;
+}
+.certificate .card .text {
+  padding: 20px;
+}
+
+
+/* __________ END CERTIFICATE SECTION __________ */
 
 /* __________ START CONTACT SECTION __________ */
 
