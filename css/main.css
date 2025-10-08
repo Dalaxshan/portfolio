@@ -8,7 +8,7 @@ html[data-theme="dark"] {
 
 html[data-color="blue"] {
   --main-color: #33e;
-  --bg-color: #000;
+  --bg-color: #000000;
   --card-color: #dadaff;
 }
 
