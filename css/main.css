@@ -19,7 +19,7 @@ html[data-theme="dark"][data-color="blue"] {
 
 html[data-color="red"] {
   --main-color: #f33;
-  --bg-color: #fff;
+  --bg-color: #000000;
   --card-color: #ffdada;
 }
 
